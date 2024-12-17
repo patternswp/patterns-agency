@@ -11,7 +11,6 @@
  */
 
 ?>
-
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/img-4.jpg" ,"id":109,"dimRatio":50,"minHeight":80,"minHeightUnit":"vh","isDark":false,"align":"full","layout":{"type":"constrained"}} -->
 <div class="wp-block-cover alignfull is-light" style="min-height:80vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-109" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/img-4.jpg"  data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->

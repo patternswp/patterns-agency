@@ -96,7 +96,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<div class="patterns-agency-intro-auth at-p">
 								<div class="patterns-agency-intro-profile at-h at-w at-bdr at-bdr-rad at-m at-flx at-al-itm-ctr at-jfy-cont-ctr">
 									<span class="at-w at-h at-bdr-rad">
-										<img class="patterns-agency-gsm-screenshot" src="<?php echo esc_url( PATTERNS_AGENCY_URL . 'assets/img/patternswp-logo.png' ); ?>" alt="<?php esc_attr_e( 'Patterns Agency', 'patterns-agency' ); ?>" />
+										<img class="patterns-agency-gsm-screenshot" src="<?php echo esc_url( PATTERNS_AGENCY_URL . 'assets/img/patternswp-logo-green.png' ); ?>" alt="<?php esc_attr_e( 'Patterns Agency', 'patterns-agency' ); ?>" />
 									</span>
 								</div>
 								<div class="patterns-agency-intro-profile-info at-m at-txt-al">

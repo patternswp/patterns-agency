@@ -6,6 +6,7 @@
  * Keywords: Page
  * Block Types: core/archives, core/group
  */
+
 ?>
 <!-- wp:pattern {"slug":"patterns-agency/featured-section-1"} /-->
 <!-- wp:pattern {"slug":"patterns-agency/featured-section-2"} /-->
