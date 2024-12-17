@@ -12,7 +12,6 @@
  */
 
 ?>
-
 <!-- wp:cover {"overlayColor":"base","minHeight":40,"minHeightUnit":"vh","align":"full","layout":{"type":"constrained"}} -->
 <div class="wp-block-cover alignfull" style="min-height:40vh">
 		<span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim-100 has-background-dim"></span>
