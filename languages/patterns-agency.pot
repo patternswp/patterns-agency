@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Patterns Agency 1.0.0\n"
+"Project-Id-Version: Patterns Agency 1.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/patterns-agency\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-25T12:25:20+00:00\n"
+"POT-Creation-Date: 2024-12-17T05:12:14+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: patterns-agency\n"
@@ -326,98 +326,102 @@ msgstr ""
 msgid "A collection of full page layouts."
 msgstr ""
 
+#: includes/functions.php:27
+msgid "Advanced Import"
+msgstr ""
+
 #. translators: %s the plugin info
-#: includes/functions.php:60
+#: includes/functions.php:67
 msgid "Not enough information about plugin. Plugin info %s"
 msgstr ""
 
 #. translators: %s is the plugin name
-#: includes/functions.php:82
-#: includes/functions.php:98
+#: includes/functions.php:89
+#: includes/functions.php:105
 msgid "Plugin \"%s\" is already active."
 msgstr ""
 
 #. translators: %1$s is the plugin name, %2$s is error message
-#: includes/functions.php:112
-#: includes/functions.php:243
+#: includes/functions.php:119
+#: includes/functions.php:250
 msgid "Error activating plugin \"%1$s\": %2$s"
 msgstr ""
 
 #. translators: %s is the plugin name.
-#: includes/functions.php:123
-#: includes/functions.php:229
+#: includes/functions.php:130
+#: includes/functions.php:236
 msgid "Plugin \"%s\" activated successfully."
 msgstr ""
 
 #. translators: %s is the plugin name.
-#: includes/functions.php:132
-#: includes/functions.php:254
+#: includes/functions.php:139
+#: includes/functions.php:261
 msgid "You don't have permission to activate the plugin \"%s\"."
 msgstr ""
 
 #. translators: %1$s is the plugin name, %2$s is error message
-#: includes/functions.php:157
+#: includes/functions.php:164
 msgid "Error retrieving information for plugin \"%1$s\": %2$s"
 msgstr ""
 
 #. translators: %1$s is the plugin name, %2$s is error message
-#: includes/functions.php:176
-#: includes/functions.php:186
-#: includes/functions.php:196
-#: includes/functions.php:216
+#: includes/functions.php:183
+#: includes/functions.php:193
+#: includes/functions.php:203
+#: includes/functions.php:223
 msgid "Error installing plugin \"%1$s\": %2$s"
 msgstr ""
 
-#: includes/functions.php:206
+#: includes/functions.php:213
 msgid "Unable to connect to the filesystem. Please confirm your credentials."
 msgstr ""
 
 #. translators: %s is the plugin name.
-#: includes/functions.php:264
+#: includes/functions.php:271
 msgid "Plugin \"%s\" installed and activated successfully."
 msgstr ""
 
-#: includes/functions.php:298
+#: includes/functions.php:305
 msgid "and"
 msgstr ""
 
-#: includes/functions.php:542
+#: includes/functions.php:549
 msgid "How can I customize the theme header?"
 msgstr ""
 
-#: includes/functions.php:543
+#: includes/functions.php:550
 msgid "You can customize the theme header by editing the Header template part in the Site Editor. Go to Appearance > Editor > Patterns > Header, then select and edit the Header template part."
 msgstr ""
 
-#: includes/functions.php:546
+#: includes/functions.php:553
 msgid "How do I change the footer credits?"
 msgstr ""
 
-#: includes/functions.php:547
+#: includes/functions.php:554
 msgid "To change the footer credits, go to  Appearance > Editor > Patterns > Footer, then select and edit the Footer template part. You can add your own text or remove the existing credits."
 msgstr ""
 
-#: includes/functions.php:550
+#: includes/functions.php:557
 msgid "Does this theme support block patterns?"
 msgstr ""
 
-#: includes/functions.php:551
+#: includes/functions.php:558
 msgid "Yes, this theme includes several pre-designed block patterns that you can use to quickly create layouts. You can find these patterns in the block inserter."
 msgstr ""
 
-#: includes/functions.php:554
+#: includes/functions.php:561
 msgid "How can I create custom templates?"
 msgstr ""
 
-#: includes/functions.php:555
+#: includes/functions.php:562
 msgid "You can create custom templates by going to Appearance > Editor > Templates, then click Add New Template. You can then design your custom template using blocks."
 msgstr ""
 
-#: includes/functions.php:558
+#: includes/functions.php:565
 msgid "How do I use global styles?"
 msgstr ""
 
-#: includes/functions.php:559
+#: includes/functions.php:566
 msgid "To use global styles, go to Appearance > Editor > Styles, then click on the Edit icon in the top right side of Styles. From there, you can customize the colors, typography, and layout for your entire site."
 msgstr ""
 

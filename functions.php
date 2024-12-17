@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 define( 'PATTERNS_AGENCY_PATH', trailingslashit( get_template_directory() ) );
 define( 'PATTERNS_AGENCY_URL', trailingslashit( get_template_directory_uri() ) );
-define( 'PATTERNS_AGENCY_VERSION', '1.0.0' );
+define( 'PATTERNS_AGENCY_VERSION', '1.0.1' );
 define( 'PATTERNS_AGENCY_THEME_NAME', 'patterns-agency' );
 define( 'PATTERNS_AGENCY_OPTION_NAME', 'patterns-agency' );
 
