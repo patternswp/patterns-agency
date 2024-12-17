@@ -3,7 +3,7 @@ Contributors: patternswp, codersantosh
 Requires at least: 6.6
 Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -66,6 +66,9 @@ https://pxhere.com/en/photo/1629588
 https://pxhere.com/en/photo/1453705
 
 == Changelog ==
+
+= 1.0.1 =
+* Added: Demo import functionality with Advanced Import.
 
 = 1.0.0 =
 * Initial release
