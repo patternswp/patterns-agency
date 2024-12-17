@@ -24,7 +24,7 @@ if ( ! function_exists( 'patterns_agency_get_recommended_plugins' ) ) :
 	function patterns_agency_get_recommended_plugins() {
 		$plugins = array(
 			array(
-				'name'   => esc_html__( 'Advanced Import', 'patterns-store-front' ), // The plugin name.
+				'name'   => esc_html__( 'Advanced Import', 'patterns-agency' ), // The plugin name.
 				'slug'   => 'advanced-import', // The plugin slug (eg: gutentor is the plugin slug https://wordpress.org/plugins/gutentor).
 				'plugin' => 'advanced-import/advanced-import.php', // The plugin folder and main file.
 				'url'    => 'https://wordpress.org/plugins/advanced-import/', // The plugin url.
