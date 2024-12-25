@@ -10,7 +10,4 @@
  */
 
 ?>
-<!-- wp:navigation -->
-	<!-- wp:home-link {"label":"<?php echo esc_html_x( 'Home', 'label', 'patterns-agency' ); ?>"} /-->
-	<!-- wp:page-list /-->
-<!-- /wp:navigation -->
+<!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"},"style":{"typography":{"textTransform":"uppercase","fontSize":"12px","letterSpacing":"1px","fontStyle":"normal","fontWeight":"700"}}} /-->
