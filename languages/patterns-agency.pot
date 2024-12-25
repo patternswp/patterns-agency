@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-25T14:12:50+00:00\n"
+"POT-Creation-Date: 2024-12-25T14:28:34+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: patterns-agency\n"
@@ -314,6 +314,7 @@ msgstr ""
 #: includes/class-block-bindings.php:112
 #: patterns/footer.php:65
 #: patterns/footer.php:81
+#: patterns/navigation-menu.php:20
 msgid "Blog"
 msgstr ""
 
@@ -615,6 +616,7 @@ msgstr ""
 
 #: patterns/footer.php:67
 #: patterns/footer.php:83
+#: patterns/navigation-menu.php:16
 msgid "About"
 msgstr ""
 
@@ -677,6 +679,7 @@ msgid "Help Center"
 msgstr ""
 
 #: patterns/hidden-404.php:40
+#: patterns/navigation-menu.php:14
 msgid "Home"
 msgstr ""
 
@@ -728,6 +731,14 @@ msgstr ""
 
 #: patterns/latest-posts.php:17
 msgid "Recent Posts"
+msgstr ""
+
+#: patterns/navigation-menu.php:18
+msgid "Services"
+msgstr ""
+
+#: patterns/navigation-menu.php:22
+msgid "Contact"
 msgstr ""
 
 #: patterns/pagination.php:15
