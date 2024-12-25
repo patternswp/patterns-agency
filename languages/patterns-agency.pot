@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Patterns Agency 1.0.1\n"
+"Project-Id-Version: Patterns Agency 1.0.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/patterns-agency\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-17T06:56:22+00:00\n"
+"POT-Creation-Date: 2024-12-25T14:31:26+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: patterns-agency\n"
@@ -314,6 +314,7 @@ msgstr ""
 #: includes/class-block-bindings.php:112
 #: patterns/footer.php:65
 #: patterns/footer.php:81
+#: patterns/navigation-menu.php:20
 msgid "Blog"
 msgstr ""
 
@@ -600,12 +601,12 @@ msgid "Lorem Ipsum is simply i dumiomy is text Lorem Ipsum is simply"
 msgstr ""
 
 #: patterns/footer.php:41
-#: patterns/hidden-primary-header.php:37
+#: patterns/hidden-primary-header.php:50
 msgid "info@example.com"
 msgstr ""
 
 #: patterns/footer.php:53
-#: patterns/hidden-primary-header.php:24
+#: patterns/hidden-primary-header.php:32
 msgid "(629) 555-0129"
 msgstr ""
 
@@ -615,6 +616,7 @@ msgstr ""
 
 #: patterns/footer.php:67
 #: patterns/footer.php:83
+#: patterns/navigation-menu.php:16
 msgid "About"
 msgstr ""
 
@@ -677,6 +679,7 @@ msgid "Help Center"
 msgstr ""
 
 #: patterns/hidden-404.php:40
+#: patterns/navigation-menu.php:14
 msgid "Home"
 msgstr ""
 
@@ -698,15 +701,15 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: patterns/hidden-primary-header.php:50
+#: patterns/hidden-primary-header.php:66
 msgid "6391 Elgin St. Celina, 10299"
 msgstr ""
 
-#: patterns/hidden-primary-header.php:95
+#: patterns/hidden-primary-header.php:129
 msgid "Need help?"
 msgstr ""
 
-#: patterns/hidden-primary-header.php:99
+#: patterns/hidden-primary-header.php:133
 msgid "(808) 555-0111"
 msgstr ""
 
@@ -730,9 +733,12 @@ msgstr ""
 msgid "Recent Posts"
 msgstr ""
 
-#: patterns/navigation-menu.php:14
-msgctxt "label"
-msgid "Home"
+#: patterns/navigation-menu.php:18
+msgid "Services"
+msgstr ""
+
+#: patterns/navigation-menu.php:22
+msgid "Contact"
 msgstr ""
 
 #: patterns/pagination.php:15

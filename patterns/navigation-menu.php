@@ -10,7 +10,14 @@
  */
 
 ?>
-<!-- wp:navigation -->
-	<!-- wp:home-link {"label":"<?php echo esc_html_x( 'Home', 'label', 'patterns-agency' ); ?>"} /-->
-	<!-- wp:page-list /-->
+<!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"},"style":{"typography":{"textTransform":"uppercase","fontSize":"12px","letterSpacing":"1px","fontStyle":"normal","fontWeight":"700"}}} -->
+	<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Home', 'patterns-agency' ); ?>","url":"#"} /-->
+
+	<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About', 'patterns-agency' ); ?>","url":"#"} /-->
+
+	<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Services', 'patterns-agency' ); ?>","url":"#"} /-->
+
+	<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Blog', 'patterns-agency' ); ?>","url":"#"} /-->
+
+	<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Contact', 'patterns-agency' ); ?>","url":"#"} /-->
 <!-- /wp:navigation -->
