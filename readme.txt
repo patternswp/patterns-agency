@@ -70,6 +70,7 @@ https://pxhere.com/en/photo/1453705
 = 1.0.2 =
 * Updated: Dependencies to the latest versions.
 * Updated: Improved responsiveness by addressing potential layout issues on various screen sizes.
+* Added: Default menu on Navigation menu pattern
 
 = 1.0.1 =
 * Added: Demo import functionality with Advanced Import.
