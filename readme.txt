@@ -68,7 +68,7 @@ https://pxhere.com/en/photo/1453705
 == Changelog ==
 
 = 1.0.2 =
-* Updated: dependencies to the latest versions.
+* Updated: Dependencies to the latest versions.
 * Updated: Improved responsiveness by addressing potential layout issues on various screen sizes.
 
 = 1.0.1 =
