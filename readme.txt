@@ -3,7 +3,7 @@ Contributors: patternswp, codersantosh
 Requires at least: 6.6
 Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -65,7 +65,22 @@ https://pxhere.com/en/photo/1442697
 https://pxhere.com/en/photo/1629588
 https://pxhere.com/en/photo/1453705
 
+=== Icons Images ===
+
+https://icons.getbootstrap.com/
+
+Bootstrap Icons
+Copyright (c) 2019-2023 The Bootstrap Authors
+License: MIT License, https://opensource.org/licenses/MIT
+Source: https://github.com/twbs/icons
+
 == Changelog ==
+
+= 1.0.3 =
+* Organized typography folder
+* Converted fonts format .ttf to .woff2
+* Added duotone
+* Fixed skip to content
 
 = 1.0.2 =
 * Updated: Dependencies to the latest versions.

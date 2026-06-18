@@ -12,6 +12,10 @@
  */
 
 ?>
-<!-- wp:pattern {"slug":"patterns-agency/search-form"} /-->
-<!-- wp:pattern {"slug":"patterns-agency/latest-posts"} /-->
-<!-- wp:pattern {"slug":"patterns-agency/latest-comments"} /-->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group">
+    <!-- wp:pattern {"slug":"patterns-agency/search-form"} /-->
+    <!-- wp:pattern {"slug":"patterns-agency/latest-posts"} /-->
+    <!-- wp:pattern {"slug":"patterns-agency/latest-comments"} /-->
+</div>
+<!-- /wp:group -->

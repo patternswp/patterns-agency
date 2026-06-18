@@ -40,6 +40,28 @@
 					"name": "Accent",
 					"slug": "accent"
 				}
+			],
+			"duotone": [
+				{
+					"colors": ["#fff", "#fff"],
+					"slug": "white",
+					"name": "White"
+				},
+				{
+					"colors": ["#343A40", "#343A40"],
+					"slug": "primary",
+					"name": "Primary"
+				},
+				{
+					"colors": ["#e3e9fa", "#e3e9fa"],
+					"slug": "secondary",
+					"name": "Secondary"
+				},
+				{
+					"colors": ["#67687a", "#67687a"],
+					"slug": "tertiary",
+					"name": "Tertiary"
+				}
 			]
 		}
 	},

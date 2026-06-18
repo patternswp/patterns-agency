@@ -12,5 +12,12 @@
  */
 
 ?>
-<!-- wp:pattern {"slug":"patterns-agency/calendar"} /-->
-<!-- wp:pattern {"slug":"patterns-agency/archives"} /-->
+
+
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group">
+    <!-- wp:pattern {"slug":"patterns-agency/calendar"} /-->
+    <!-- wp:pattern {"slug":"patterns-agency/archives"} /-->
+</div>
+<!-- /wp:group -->
