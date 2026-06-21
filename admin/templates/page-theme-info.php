@@ -385,6 +385,28 @@ if ( ! defined( 'ABSPATH' ) ) {
 						<?php
 					}
 					?>
+					<?php
+					$changelog = function_exists( 'patterns_agency_parse_changelog' ) ? patterns_agency_parse_changelog() : '';
+					if ( $changelog ) {
+						?>
+							<div class="at-row">
+								<div class="at-col-12">
+									<div class="patterns-agency-card at-bg-cl at-bdr">
+										<div class="patterns-agency-card-header at-bdr at-p at-jfy-cont-st at-gap at-flx">
+											<span class="dashicons dashicons-backup"></span>
+											<h4 class="patterns-agency-card-header-ttl at-txt at-m">
+												<?php esc_html_e( 'Changelog', 'patterns-agency' ); ?>
+											</h4>
+										</div>
+										<div class="patterns-agency-card-body at-p">
+											<pre class="patterns-agency-changelog"><?php echo wp_kses_post( $changelog ); ?></pre>
+										</div>
+									</div>
+								</div>
+							</div>
+						<?php
+					}
+					?>
 				</div>
 			</div>
 		</div>
