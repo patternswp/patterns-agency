@@ -31,6 +31,7 @@ Thumbs.db
 
 # Doc files for GitHub (use readme.txt for WordPress)
 /README.md
+/readme.md
 
 # Plugin/theme zip (never commit)
 /*.zip
