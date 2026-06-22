@@ -14,7 +14,7 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"1320px"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:comments -->
 <div class="wp-block-comments">
-	
+
 <!-- wp:heading {"level":3,"style":{"spacing":{"padding":{"bottom":"20px"},"margin":{"bottom":"0px"}}}} -->
 <h3 class="wp-block-heading" style="margin-bottom:0px;padding-bottom:20px"><?php esc_html_e( 'Comments', 'patterns-agency' ); ?>
 </h3>
