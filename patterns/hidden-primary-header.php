@@ -64,12 +64,12 @@
 		<!-- /wp:group -->
 	</div>
 	<!-- /wp:group -->
-    
+
     <!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
     <div class="wp-block-group alignfull">
         <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"},"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
         <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
-            
+
             <!-- wp:group {"style":{"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
             <div class="wp-block-group">
                 <!-- wp:pattern {"slug":"patterns-agency/site-identity"} /-->
@@ -89,7 +89,7 @@
                 <!-- /wp:group -->
 
                 <!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group">			
+                <div class="wp-block-group">
 
                     <!-- wp:paragraph {"textColor":"tertiary"} -->
                     <p class="has-tertiary-color has-text-color"><?php esc_html_e( 'Need help?', 'patterns-agency' ); ?></p>
@@ -108,7 +108,7 @@
     </div>
     <!-- /wp:group -->
 
-	
+
 
 </div>
 <!-- /wp:group -->

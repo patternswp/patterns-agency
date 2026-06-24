@@ -36,14 +36,14 @@ if ( ! class_exists( 'Patterns_Agency_Api' ) ) {
 		/**
 		 * Rest route namespace.
 		 *
-		 * @var Patterns_Agency_Api
+		 * @var string
 		 */
 		public $namespace = 'patterns-agency/';
 
 		/**
 		 * Rest route version.
 		 *
-		 * @var Patterns_Agency_Api
+		 * @var string
 		 */
 		public $version = 'v1';
 

@@ -1,129 +1,189 @@
 {
-	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"version": 3,
-	"title": "Dark",
-	"settings": {
-		"color": {
-			"palette": [
-				{
-					"color": "#212529",
-					"name": "Base",
-					"slug": "base"
-				},
-				{
-					"color": "#fff",
-					"name": "Default",
-					"slug": "default"
-				},
-				{
-					"color": "#343A40",
-					"name": "Primary",
-					"slug": "primary"
-				},
-				{
-					"color": "#DEE2E6",
-					"name": "Secondary",
-					"slug": "secondary"
-				},
-				{
-					"color": "#495057",
-					"name": "Tertiary",
-					"slug": "tertiary"
-				},
-				{
-					"color": "#6C757D",
-					"name": "Quaternary",
-					"slug": "quaternary"
-				},
-				{
-					"color": "#6C757D",
-					"name": "Accent",
-					"slug": "accent"
-				}
-			],
-			"duotone": [
-				{
-					"colors": ["#fff", "#fff"],
-					"slug": "white",
-					"name": "White"
-				},
-				{
-					"colors": ["#343A40", "#343A40"],
-					"slug": "primary",
-					"name": "Primary"
-				},
-				{
-					"colors": ["#e3e9fa", "#e3e9fa"],
-					"slug": "secondary",
-					"name": "Secondary"
-				},
-				{
-					"colors": ["#67687a", "#67687a"],
-					"slug": "tertiary",
-					"name": "Tertiary"
-				}
-			]
-		}
-	},
-	"styles": {
-		"elements": {
-			"button": {
-				"color": {
-					"background": "var:preset|color|primary",
-					"text": "var:preset|color|default"
-				},
-				":hover": {
-					"color": {
-						"background": "var:preset|color|tertiary"
-					}
-				},
-				":focus": {
-					"color": {
-						"background": "var:preset|color|tertiary"
-					}
-				},
-				":active": {
-					"color": {
-						"background": "var:preset|color|tertiary"
-					}
-				},
-				":visited": {
-					"color": {
-						"text": "var:preset|color|base"
-					}
-				}
-			},
-
-			"link": {
-				":active": {
-					"color": {
-						"text": "var:preset|color|primary"
-					}
-				}
-			}
-		},
-		"blocks": {
-			"core/button": {
-				"variations": {
-					"outline": {
-						"border": {
-							"color": "var(--wp--preset--color--secondary) !important"
-						},
-						"color": {
-							"text": "var:preset|color|secondary"
-						},
-						"elements": {
-							"link": {
-								":hover": {
-									"border": {
-										"color": "var:preset|color|base"
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "title": "Dark",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "color": "#212529",
+                    "name": "Base",
+                    "slug": "base"
+                },
+                {
+                    "color": "#fff",
+                    "name": "Default",
+                    "slug": "default"
+                },
+                {
+                    "color": "#6C757D",
+                    "name": "Primary",
+                    "slug": "primary",
+                    "_comment": "Lightened from #343A40 (1.5:1 contrast on base) to #6C757D for WCAG AA 4.5:1."
+                },
+                {
+                    "color": "#DEE2E6",
+                    "name": "Secondary",
+                    "slug": "secondary"
+                },
+                {
+                    "color": "#495057",
+                    "name": "Tertiary",
+                    "slug": "tertiary"
+                },
+                {
+                    "color": "#868E96",
+                    "name": "Quaternary",
+                    "slug": "quaternary"
+                },
+                {
+                    "_comment": "Differentiated from quaternary (#868E96) and accent (#ADB5BD).",
+                    "color": "#ADB5BD",
+                    "name": "Quinary",
+                    "slug": "quinary"
+                },
+                {
+                    "color": "#CED4DA",
+                    "name": "Accent",
+                    "slug": "accent"
+                }
+            ],
+            "duotone": [
+                {
+                    "colors": [
+                        "#212529",
+                        "#6c757d"
+                    ],
+                    "slug": "base-to-primary",
+                    "name": "Base to Primary"
+                },
+                {
+                    "colors": [
+                        "#212529",
+                        "#dee2e6"
+                    ],
+                    "slug": "base-to-secondary",
+                    "name": "Base to Secondary"
+                },
+                {
+                    "colors": [
+                        "#fff",
+                        "#6c757d"
+                    ],
+                    "slug": "white-to-primary",
+                    "name": "White to Primary"
+                },
+                {
+                    "colors": [
+                        "#fff",
+                        "#ced4da"
+                    ],
+                    "slug": "white-to-accent",
+                    "name": "White to Accent"
+                },
+                {
+                    "colors": [
+                        "#495057",
+                        "#dee2e6"
+                    ],
+                    "slug": "tertiary-to-secondary",
+                    "name": "Tertiary to Secondary"
+                },
+                {
+                    "colors": [
+                        "#212529",
+                        "#adb5bd"
+                    ],
+                    "slug": "base-to-quinary",
+                    "name": "Base to Quinary"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "color": {
+            "background": "var:preset|color|base",
+            "text": "var:preset|color|default"
+        },
+        "elements": {
+            "button": {
+                "color": {
+                    "background": "var:preset|color|primary",
+                    "text": "var:preset|color|default"
+                },
+                ":hover": {
+                    "color": {
+                        "background": "var:preset|color|tertiary"
+                    }
+                },
+                ":focus": {
+                    "color": {
+                        "background": "var:preset|color|tertiary"
+                    }
+                },
+                ":active": {
+                    "color": {
+                        "background": "var:preset|color|tertiary"
+                    }
+                },
+                ":visited": {
+                    "color": {
+                        "text": "var:preset|color|base"
+                    }
+                }
+            },
+            "link": {
+                ":active": {
+                    "color": {
+                        "text": "var:preset|color|primary"
+                    }
+                }
+            }
+        },
+        "blocks": {
+            "core/button": {
+                "variations": {
+                    "outline": {
+                        "border": {
+                            "color": "var(--wp--preset--color--secondary)"
+                        },
+                        "color": {
+                            "text": "var:preset|color|secondary"
+                        },
+                        "elements": {
+                            "link": {
+                                ":hover": {
+                                    "border": {
+                                        "color": "var:preset|color|base"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "core/navigation": {
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var:preset|color|quinary"
+                            }
+                        },
+                        ":active": {
+                            "color": {
+                                "text": "var:preset|color|quinary"
+                            }
+                        },
+                        ":focus": {
+                            "color": {
+                                "text": "var:preset|color|quinary"
+                            }
+                        }
+                    }
+                },
+                "css": "& .current-menu-item{ color:var(--wp--preset--color--quinary);}"
+            }
+        }
+    }
 }

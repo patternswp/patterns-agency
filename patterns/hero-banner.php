@@ -15,7 +15,7 @@
 <div class="wp-block-cover alignfull is-light" style="padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);min-height:80vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/img-4.jpg"  data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-column">
-    
+
 <!-- wp:heading {"level":6,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"default"} -->
 <h6 class="wp-block-heading has-default-color has-text-color" style="font-style:normal;font-weight:500"><?php esc_html_e( 'Crafting Digital', 'patterns-agency' ); ?></h6>
 <!-- /wp:heading -->
